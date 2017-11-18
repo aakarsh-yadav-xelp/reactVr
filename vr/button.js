@@ -29,7 +29,7 @@ export default class ButtonForChange extends React.Component {
       <Animated.View
         style={{
           flexDirection: "column",
-          layoutOrigin: [1, 0],
+          layoutOrigin: [1, 1],
           transform: [
             { translateZ: this.state.animatedTranslation },
             { translate: [-1.5, 0, -13] }
@@ -49,7 +49,15 @@ export default class ButtonForChange extends React.Component {
         >
           <Image
             source={asset(this.props.img)}
-            style={{ width: 2.5, height: 2.5 }}
+            style={{
+              width: 2.8,
+              height: 2.8,
+              borderWidth: 0.2,
+              borderColor: "gray",
+              shadowOpacity: 1,
+              shadowColor: "gray",
+              shadowOffset: { width: 0.1, height: 0.1 }
+            }}
           />
         </VrButton>
         <View

@@ -25,17 +25,17 @@ export default class welcomeToVR extends React.Component {
           />
           <ButtonForChange
             changeIt={item => this.change(item)}
-            img={"chess-world.jpg"}
+            img={"2.jpg"}
             title={"Chess World"}
           />
           <ButtonForChange
             changeIt={item => this.change(item)}
-            img={"image1.jpeg"}
+            img={"4.jpg"}
             title={"My Office"}
           />
           <ButtonForChange
             changeIt={item => this.change(item)}
-            img={"2.jpg"}
+            img={"5.jpg"}
             title={"text"}
           />
         </View>
